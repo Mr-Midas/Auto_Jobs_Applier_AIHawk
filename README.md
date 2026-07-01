@@ -141,7 +141,7 @@ Auto_Jobs_Applier_AIHawk steps in as a game-changing solution to these challenge
 4. **Activate virtual environment:**
 
    ```bash
-   python3 -m venv virtual
+   py -3.12 -m venv virtual
    ```
 
    ```bash
