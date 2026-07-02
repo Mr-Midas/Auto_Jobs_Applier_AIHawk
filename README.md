@@ -148,11 +148,18 @@ Auto_Jobs_Applier_AIHawk steps in as a game-changing solution to these challenge
    source virtual/bin/activate
    ```
 
-   or for Windows-based machines -
+  For Windows (PowerShell is recommended to properly render the terminal menu):Open PowerShell.Allow script execution (you only need to do this once per machine) by running:
+  
+  ```bash
+  PowerShellSet-ExecutionPolicy RemoteSigned -Scope CurrentUser
+  ```
+  
+(Press Y and hit Enter when prompted)
+Activate the environment:
 
-   ```bash
-   .\virtual\Scripts\activate
-   ```
+```bash
+PowerShell.\virtual\Scripts\Activate.ps1
+```
 
 5. **Install the required packages:**
 
